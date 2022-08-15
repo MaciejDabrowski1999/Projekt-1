@@ -2,12 +2,13 @@
     font-family: 'Roboto', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 }
-* {
-    font-family: 'Roboto', sans-serif;
+.container {
+    width: 960px;
+}
+.top {
+    height: 6vh;
 }
 .menu {
-    height: 50px;
-    width: 1280px;
     background-color: #4E4E4E;
     color: white;
     font-size: 18px;
@@ -22,12 +23,11 @@ nav > div {
     margin: 2%;
 }
 .left {
-    margin-right: 65%;
+    margin-right: 60%;
 }
 .onas {
-    width: 1280px;
-    height: 580px;
     background-image: url(fog.jpg);
+    color: #777777;
     display: flex;
     align-items: center;
 }
@@ -39,6 +39,13 @@ section > div {
     padding-bottom: 5%;
 }
 .oferta {
-    border: 5px solid white;
+    border: 5px solid #777777;
     padding: 1% 10%;
+}
+.onas:hover {
+    transform: scale(1.05);
+    background-image: none;
+    background-color: white;
+    color: black;
+
 }
