@@ -1,13 +1,15 @@
 @font-face {
     font-family: 'Roboto', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');}
+* {
+    font-family: 'Roboto', sans-serif;
 }
 .container {
-    width: 960px;
-}
+    width: 960px;}
+
 .top {
-    height: 6vh;
-}
+    height: 6vh;}
+
 .menu {
     background-color: #4E4E4E;
     color: white;
@@ -17,35 +19,80 @@
     justify-content: flex-end;
     align-items: center;
     flex-wrap: nowrap;
-    row-gap: 10px;
-}
+    row-gap: 10px;}
+
 nav > div {
-    margin: 2%;
-}
+    margin: 2%;}
+
 .left {
-    margin-right: 60%;
-}
+    margin-right: 60%;}
+
 .onas {
     background-image: url(fog.jpg);
     color: #777777;
     display: flex;
-    align-items: center;
-}
+    align-items: center;}
+
 .onas > section {
-    margin: 3%;
-}
+    margin: 3%;}
+
 section > div {
     padding-top: 5%;
-    padding-bottom: 5%;
-}
+    padding-bottom: 5%;}
+
 .oferta {
     border: 5px solid #777777;
-    padding: 1% 10%;
-}
+    padding: 1% 10%;}
+
 .onas:hover {
-    transform: scale(1.05);
     background-image: none;
     background-color: white;
-    color: black;
+    color: black;}
 
+.offer {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;}
+
+.spec {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 5%;
+}
+.spec1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.koło1 {
+    width: 50px;
+    height: 50px;
+    border: 3px bold #C4C4C4;
+    border-radius: 100px;
+    background-color: #C4C4C4;}
+.koło2 {
+        width: 50px;
+        height: 50px;
+        border: 3px bold #C4C4C4;
+        border-radius: 50px;
+        background-color: #907D7D;} 
+
+.bottom {
+    background-color: #4E4E4E;
+    color: white;
+    width: 960px;
+    display: flex;
+    justify-content: end;
+    align-items:center;}
+.bottom > div {
+    margin-right: 10%;
+}
+.namecomp {
+    margin-right: 50%;
 }
