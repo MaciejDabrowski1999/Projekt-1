@@ -13,11 +13,23 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    flex-wrap: nowrap;
     row-gap: 10px;
 }
 nav > div {
-    margin: 50px;
+    margin: 2%;
 }
 .left {
-    margin: auto;
+    margin-right: 65%;
+}
+.onas {
+    width: 1280px;
+    height: 580px;
+    background-image: url(fog.jpg);
+    display: flex;
+    align-items: center;
+}
+.onas > section {
+    margin: 3%;
+    padding: 5%;
 }
