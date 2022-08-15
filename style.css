@@ -1,7 +1,9 @@
-
-body {
-    margin: 10px;
-
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+* {
+    font-family: 'Roboto', sans-serif;
 }
 .menu {
     height: 50px;
@@ -31,5 +33,12 @@ nav > div {
 }
 .onas > section {
     margin: 3%;
-    padding: 5%;
+}
+section > div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.oferta {
+    border: 5px solid white;
+    padding: 1% 10%;
 }
