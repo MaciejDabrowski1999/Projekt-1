@@ -5,6 +5,8 @@
     font-family: 'Roboto', sans-serif;
 }
 .container {
+    display: flex;
+    justify-content: center;
     width: 960px;}
 
 .top {
@@ -29,6 +31,7 @@ nav > div {
 
 .onas {
     background-image: url(fog.jpg);
+    height: 100vh;
     color: #777777;
     display: flex;
     align-items: center;}
@@ -49,14 +52,6 @@ section > div {
     background-color: white;
     color: black;}
 
-.offer {
-    height: 200px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;}
-
 .spec {
     display: flex;
     flex-direction: column;
@@ -65,30 +60,61 @@ section > div {
 }
 .spec1 {
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+}
+.spec2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin-right: 5%;}
+.circle2 { 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #907D7D;
+    margin-left: 5%;} 
+
+.down {
+    background-color: #405D78;
+    color: white;
+}
+.down > h2 {
+    margin-top: 5%;
+}
+.offer {
+    height: 500px;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;}
+
+.offer > div {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 2px 2px;
+    margin: 3%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
 }
-
-.koło1 {
-    width: 50px;
-    height: 50px;
-    border: 3px bold #C4C4C4;
-    border-radius: 100px;
-    background-color: #C4C4C4;}
-.koło2 {
-        width: 50px;
-        height: 50px;
-        border: 3px bold #C4C4C4;
-        border-radius: 50px;
-        background-color: #907D7D;} 
 
 .bottom {
     background-color: #4E4E4E;
     color: white;
     width: 960px;
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     align-items:center;}
 .bottom > div {
     margin-right: 10%;
