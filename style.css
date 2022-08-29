@@ -5,53 +5,28 @@
     font-family: 'Roboto', sans-serif;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    width: 960px;}
-
-.top {
-    height: 6vh;}
-
+    width: 960px;
+}
 .menu {
     background-color: #4E4E4E;
     color: white;
+    width: 100%;
+    padding: 10px;
     font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: nowrap;
-    row-gap: 10px;}
-
-nav > div {
-    margin: 2%;}
-
-.left {
-    margin-right: 60%;}
-
+}
 .onas {
     background-image: url(fog.jpg);
+    background-size: cover;
     height: 100vh;
     color: #777777;
-    display: flex;
-    align-items: center;}
-
-.onas > section {
-    margin: 3%;}
-
-section > div {
-    padding-top: 5%;
-    padding-bottom: 5%;}
-
+}
 .oferta {
     border: 5px solid #777777;
     padding: 1% 10%;}
-
 .onas:hover {
     background-image: none;
     background-color: white;
     color: black;}
-
 .spec {
     display: flex;
     flex-direction: column;
@@ -59,28 +34,24 @@ section > div {
     margin-left: 5%;
 }
 .spec1 {
-    display: flex;
-    align-items: center;
+    width: auto;
+    height: 200px;
+    display: inline;
 }
-.spec2 {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-
-.circle1 {
+.circle:nth-of-type(even) {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-color: #C4C4C4;
-    margin-right: 5%;}
-.circle2 { 
+    margin-right: 5%;
+    float: left;}
+.circle:nth-of-type(odd) {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: #907D7D;
-    margin-left: 5%;} 
-
+    background-color: #C4C4C4;
+    margin-right: 5%;
+    float: right;}
 .down {
     background-color: #405D78;
     color: white;
@@ -95,7 +66,6 @@ section > div {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;}
-
 .offer > div {
     height: 200px;
     width: 200px;
@@ -106,19 +76,8 @@ section > div {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 .bottom {
     background-color: #4E4E4E;
     color: white;
-    width: 960px;
-    display: flex;
-    justify-content: space-around;
-    align-items:center;}
-.bottom > div {
-    margin-right: 10%;
-}
-.namecomp {
-    margin-right: 50%;
 }
