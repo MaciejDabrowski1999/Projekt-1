@@ -10,7 +10,7 @@
 .menu {
     background-color: #4E4E4E;
     color: white;
-    padding: 10px;
+    font-size: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,13 +32,13 @@
     flex-direction: column;
     justify-content: center;
     background-image: url(fog.jpg);
+    background-color: rgb(0, 0, 0, 1);
     background-size: cover;
     transition: all 2s;
     height: 100vh;
     color: white;
 }
 .oferta {
-    padding: 10px;
     margin: 20px;
 }
 .oferta.przycisk {
@@ -58,37 +58,28 @@
     background-color: white;
     background-image: none;
 }
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    aspect-ratio: 1.0;
+    background-color: black;
+}
 .spec {
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
 }
-.spec1 {
-    width: auto;
-    height: 200px;
-    display: inline;
+.spec:nth-of-type(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
 }
-.circle:nth-of-type(even) {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #C4C4C4;
-    margin-right: 5%;
-    float: left;}
-.circle:nth-of-type(odd) {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #C4C4C4;
-    margin-right: 5%;
-    float: right;}
 .down {
     background-color: #405D78;
     color: white;
-}
-.down > h2 {
-    margin-top: 5%;
 }
 .offer {
     height: 500px;
@@ -100,13 +91,26 @@
 .offer > div {
     height: 200px;
     width: 200px;
-    box-shadow: 0px 2px 2px;
     margin: 3%;
     background-color: white;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s;
+}
+.sc:hover {
+    transform: scale(1.05);
+}
+.smcircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    aspect-ratio: 1;
+    background-color: #E07A64;
+    position: absolute;
 }
 .bottom {
     background-color: #4E4E4E;
