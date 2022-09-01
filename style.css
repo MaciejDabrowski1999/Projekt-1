@@ -6,7 +6,11 @@
 }
 .container {
     width: 960px;
+    padding: auto;
 }
+
+/* Top */
+
 .menu {
     background-color: #4E4E4E;
     color: white;
@@ -20,6 +24,9 @@
     display: flex;
     justify-content: space-around;
 }
+
+/* Mid */
+
 .link-light {
     text-decoration: none;
 }
@@ -42,7 +49,7 @@
     flex-direction: column;
     justify-content: center;
     background-size: cover;
-    transition: all 2s;
+    transition: all 1s;
     height: 100vh;
     color: white;
 }
@@ -53,7 +60,7 @@
     width: 10%;
     text-align: center;
     background: none;
-    border: 10px solid white;
+    border: 5px solid white;
     color: white;
     transition: all 2s;
 }
@@ -61,10 +68,9 @@
     color: white;
     text-decoration: none;
 }
-.onas:hover, .ofer:hover {
+.oferta.przycisk:hover {
     color: black;
     background-color: white;
-    background-image: none;
 }
 .circle {
     width: 200px;
@@ -85,6 +91,9 @@
     align-items: center;
     text-align: end;
 }
+
+/*bottom*/
+
 .down {
     background-color: #405D78;
     color: white;
@@ -111,14 +120,14 @@
     transform: scale(1.05);
 }
 .smcircle {
+    position: absolute;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    margin-bottom: 200px;
-    margin-right: 200px;
+    margin-bottom: 100%;
+    margin-right: 100%;
     aspect-ratio: 1;
     background-color: #E07A64;
-    position: absolute;
 }
 .bottom {
 
