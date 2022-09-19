@@ -8,7 +8,17 @@ html {
 }
 .container {
     width: 960px;
-    margin: 0 auto;
+}
+/* Globalne */
+.bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+.size {
+    font-size: 36px;
+}
+.margin {
+    margin: 0% 7%;
 }
 
 /* Top */
@@ -22,7 +32,7 @@ html {
 }
 .right {
     width: 30%;
-    margin: 1% 0% 1% 0%;
+    margin: 1% 0%;
     display: flex;
     justify-content: space-around;
 }
@@ -33,20 +43,20 @@ html {
     text-decoration: none;
     color: white;
 }
-.kontakt {
+.contact {
     cursor: not-allowed;
 }
 .fog {
     width: 100vh;
     height: 100vh;
     position: absolute;
-    z-index: -2;
-}
-.cień {
-    background-color: rgb(0, 0, 0, 0.5);
     z-index: -1;
 }
-.onas {
+.shadow {
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.about_us {
     width: 100%;
     font-size: 16px;
     display: flex;
@@ -56,15 +66,15 @@ html {
     transition: all 1s;
     height: 100vh;
 }
-.oferta.przycisk {
+.offer.button {
     width: 10%;
     text-align: center;
     background: none;
     border: 2px solid white;
     color: white;
-    transition: all 2s;
+    transition: all 1s;
 }
-.oferta.przycisk:hover {
+.offer.button:hover {
     color: black;
     background-color: white;
 }
@@ -135,15 +145,4 @@ html {
     margin-right: 200px;
     aspect-ratio: 1;
     background-color: #E07A64;
-}
-/* Globalne */
-.bold {
-    font-size: 20px;
-    font-weight: bold;
-}
-.size {
-    font-size: 36px;
-}
-.margin {
-    margin: 20px;
 }
