@@ -113,6 +113,10 @@ html {
 .down {
     background-color: #405D78;
 }
+.blue {
+    height: 100px;
+    justify-content: flex-start;
+}
 .offer {
     width: 960px;
     flex-wrap: wrap;
